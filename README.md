@@ -11,7 +11,11 @@
   - VSCode에서 연결하는 방법  
     WSL 확장팩 설치
   -  Ubuntu 터미널에서 연결  
-    터미널에 code . 입력  
+    터미널에 code . 입력
+      
+    ※ WSL $PATH 환경 변수 Windows 공유 설정  
+    /etc/wsl.conf 수정  
+          
     ※ 환경변수 PATH 추가(~/.bashrc)  
     export PATH=$PATH:/mnt/c/DEV/Tools/Microsoft\ VS\ Code/bin
 - github 연동
