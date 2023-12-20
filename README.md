@@ -1,8 +1,7 @@
 # self-learning-cs
 혼자 공부하는 컴퓨터구조+운영체제
 
-### Step01
-#### 개발환경 세팅
+### 개발환경 세팅
 - wsl2 설치
 - Ubuntu 설치
 - Ubuntu 세팅
@@ -15,3 +14,13 @@
     터미널에 code . 입력  
     ※ 환경변수 PATH 추가(~/.bashrc)  
     export PATH=$PATH:/mnt/c/DEV/Tools/Microsoft\ VS\ Code/bin
+- github 연동
+- .vscode
+  - tasks.json 컴파일러 빌드 세팅
+    - gcc
+    - g++
+  - launch.json 디버거 세팅
+
+ ### 프로세스
+ - getpid()
+ - fork()
